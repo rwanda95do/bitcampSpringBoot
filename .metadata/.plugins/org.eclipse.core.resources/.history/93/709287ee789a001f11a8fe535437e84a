@@ -1,0 +1,17 @@
+package board.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class BoardController {
+	
+	public BoardController() {
+		System.out.println("BoardController 생성자");
+	}
+}
+
+
+// 생성자에 있는 내용이 출력되지 않은 것은, Bean으로 생성되지 않았다는 것이다.
+
+// 자동으로 생성되는 com.example.demo의 하위으로 만들어진 패키지(클래스)는 자동으로 설정이 되지만 
+// 나머지는 안되기 때문에 직접 설정해줘야한다. 

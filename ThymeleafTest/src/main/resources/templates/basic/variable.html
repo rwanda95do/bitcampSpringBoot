@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring EL 표현식</h1>
+
+<h3>Object</h3>
+<ul>
+	<li>${aa.name} = <span th:text="${aa.name}"></span></li>
+	<li>${aa['name']} = <span th:text="${aa['name']}"></span></li>
+	<li>${aa.getName()} = <span th:text="${aa.getName()}"></span></li>
+</ul>
+
+<hr/>
+
+<h3>List</h3>
+<ul>
+	<li>${list[1].name} = <span th:text="${list[1].name}"></span></li>
+	<li>${list[1]['name']} = <span th:text="${list[1]['name']}"></span></li>
+	<li>${list[1].getName()} = <span th:text="${list[1].getName()}"></span></li>
+	
+</ul>
+
+<hr/>
+
+<h3>Map</h3>
+<ul>
+	<li>${map['cc'].name} = <span th:text="${map['cc'].name}"></span></li>
+	<li>${map['cc']['name']} = <span th:text="${map['cc']['name']}"></span></li>
+	<li>${map['cc'].getName()} = <span th:text="${map['cc'].getName()}"></span></li>	
+</ul>
+
+
+
+
+
+
+
+
+<hr/>
+<h1>변수</h1>
+<h3>지역변수: th:with="변수명=${}"</h3>
+<ul th:with="first = ${list[0]}">
+	<li>이름 : <span th:text="${first.name}"></span></li>
+	<li>나이 : <span th:text="${first.age}"></span></li>
+</ul>
+<ul th:with="second = ${list[1]}">
+	<li>이름 : <span th:text="${second.name}"></span></li>
+	<li>나이 : <span th:text="${second.age}"></span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

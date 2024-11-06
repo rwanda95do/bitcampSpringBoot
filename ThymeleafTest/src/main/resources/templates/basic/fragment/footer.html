@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<footer th:fragment="foot" th:attr="style=${styles}">푸터자리</footer>
+<footer th:fragment="footParam(param1, param2, styles)" th:attr="style=${styles}>
+	<p>footer 파라미터 자리입니다.</p>
+    <p th:text="${param1}"></p>
+    <p th:text="${param2}"></p>
+</footer>
+</body>
+</html>

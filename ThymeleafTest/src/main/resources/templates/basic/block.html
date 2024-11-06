@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+span {
+color:blue;
+}
+
+</style>
+</head>
+<body>
+	<th:block th:each="dto: ${list}">
+		<div>
+			이름 : <span th:text="${dto.name}"></span> &emsp;
+			나이 : <span th:text="${dto.age}"></span>&emsp;
+		</div>
+		<div>
+			요약 : <span th:text="${dto.name} + '/' + ${dto.age}"></span>
+		</div>
+	</th:block>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>표현식 기본 객체 (Expression Basic Object)</h1>
+<ul>
+	<li>locale = <span th:text="${#locale}"></span></li>
+</ul>
+
+<h1>편의객체</h1>
+<ul>
+	<li>Request Parameter = <span th:text="${param.paramData}"></span></li>
+	<li>spring bean = <span th:text="${@helloTest.hello('Spring boot!')}"></span></li>
+	<!--/* 
+		${@  } 기호는 스프링 빈을 참조한다.
+		스프링 애플리케이션 컨텍스트에 등록한 빈의 이름이다
+		@Component, @Service, @Repository, ... 등 어노테이션을 사용하여 빈으로 생성된다 (그리고 참조한다는 소리인듯..)
+		helloTest 빈을 참조하여 hello 메서드를 호출하고, 결과를 템플릿에 반환한다
+	*/-->
+</ul>
+
+<hr>
+	[[${startTime}]]
+	[[${temporals.format(startTime, 'yyyy-MM-dd HH:mm:ss')}]]
+	[[${temporals.format(startTime, 'yytt년 MM월 dd일 HH시 mm분 ')}]]
+	<br>
+	<!--/* 타임리프에서 [[]]는 표현식을 나타내는 구문이다. */-->
+<hr>	
+
+	<!--/* Thymeleaf가 제공하는 내장 함수로, 현재 시각이나 날짜를 표현, #dates 및 #calendars 유틸리티 */-->
+	 [[${#dates} ] ]<br>
+	 [[${#dates.createNow() } ] ]<br>
+	 [[${#dates.createToday() } ] ]<br>
+	 [[${#dates. format(#dates.createNow(), 'YYYY/MM/dd HH:mm' ) } ] ]<br>
+	 [[${#dates. format(#dates.createNow(), 'yyyyE MMM d@' ) } ] ]<br>
+	 [[${#dates. format(#dates.createNow(), 'hh: mm:ss' ) } ]]<br>
+	 [[${#dates. format(#dates. createNow(), 'ddd dd d') } ]]<br>
+	 [[${#calendars.dayOfWeekName(#dates.createNow())}]]<br>
+ <hr>
+ 	
+ 	<!--/* 타임리프에서 [[strings]]는 특정 문자열이나 변수의 값을 출력할 때 사용되는 표현식 */-->
+	 [[${#strings} ] ]<br>
+	 [[${#strings. isEmpty(param.name) } ] ] <br>
+	 [[${#strings. isEmpty(startTime) } ] ]<br>
+	 [[${#strings. isEmpty(str) } ] ]<br>
+	 [[${#strings. length(str) } ] ]<br>
+	 '[[${#strings. toLowerCase(str) } ] ]'<br>
+	 '[[${str} ] ]'<br>
+	 '[[${#strings. trim(str) } ]]'<br>
+ <hr>	
+ 
+<ul>
+	<li>${num} = <span th:text="${num}"></span></li>
+	<li>
+		${#numbers.formatInteger(num, 3, 'COMMA')} = <span th: text="${#numbers.formatInteger(num, 3, 'COMMA') }" />
+	</li>
+	<li>
+		${#numbers.formatCurrency(num)} = <span th:text="${#numbers.formatCurrency(num)}" />
+	</li>
+	<li>
+		${#numbers.formatDecimal(num, 3, 'COMMA', 2, 'POINT')} = <span th:text="${#numbers.formatDecimal(num, 3, 'COMMA', 2, 'POINT')}" />
+	</li>
+</ul>
+ 
+ 
+ <hr>
+ 
+[[${param}]]
+[[${param.size()}]]
+[[${param.isEmpty()}]]
+
+<hr>
+
+[[${session}]]
+[[${session.memId}]]
+[[${session.size()}]]
+[[${session.isEmpty()}]]
+세션이 Map으로 저장되니까 key값을 가져올 수 있다. [[${session.keySet()}]]
+
+
+ 
+ 
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+header {
+    height : 100px;
+    background-color : yellow;
+}
+footer {
+    height : 100px;
+    background-color : pink;
+}
+section {
+    height : 200px;
+    background-color : green;
+}
+</style>
+</head>
+<body>
+	<header th:insert="basic/fragment/menu :: header">여기는 menu</header>
+	<section>
+		여기는 FragmentMain1.html 페이지 입니다.
+	</section>
+	<footer th:insert="basic/fragment/info :: info"></footer>
+</body>
+</html>
+
+<!--/*  -->
+th:insert는 다른 HTML 파일의 특정 프레그먼트를 현재 문서에 삽입
+"basic/fragment/menu :: header"는 basic/fragment/menu.html파일의header라는 이름의 프래그먼트만 삽입한다는 의미
+<!--  */-->

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>부분 포함 테스트</h1>
+	<h2>부분 포함 insert</h2>
+	<div th:insert="~{basic/fragment/footer :: foot('color: red;')}"></div>
+	
+	<h2>부분 포함 replace</h2>
+	<div th:replace="~{basic/fragment/footer :: foot('color: blue;')}"></div>
+	
+	<h2>부분 포함 단순표현식</h2>
+	<div th:insert="~{basic/fragment/footer :: foot('color: pink;')}"></div>
+	
+	<h2>파라미터 사용</h2>
+	<div th:replace="~{basic/fragment/footer :: footParam ('데이터1', '데이터2', 'color: green;')}"></div>
+	<div th:replace="basic/fragment/footer :: footParam ('데이터1', '데이터2''color: green;')}"></div>
+</body>
+</html>

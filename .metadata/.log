@@ -1265,3 +1265,2710 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-11-06 17:46:00.771 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-06 17:46:34.358
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-11-06 17:48:37.977
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-06 17:48:39.750
+!MESSAGE Logback config file: D:\SpringBoot\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-06 17:48:40.345
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-06 17:48:40.345
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-06 17:48:40.665
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-06 17:48:40.665
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-06 17:48:50.333
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bitcamp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-06 17:48:50.755
+!MESSAGE Boot project ADDED: Chapter01HelloGradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-06 17:48:50.756
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-06 17:48:50.758
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-06 17:48:50.759
+!MESSAGE Boot project ADDED: Chapter01Hellomaven
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-06 17:48:50.759
+!MESSAGE Boot project ADDED: ThymeleafTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-06 17:48:50.836
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringBoot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1730882930835
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-06 17:48:50.836
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-06 17:48:50.897
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8132
+!SESSION 2024-11-07 09:41:40.362 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-07 09:42:15.039
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-07 09:42:54.077
+!MESSAGE Logback config file: D:\SpringBoot\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-07 09:42:54.826
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-07 09:42:54.826
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-07 09:42:55.251
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-07 09:42:55.251
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-07 09:43:07.513
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bitcamp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 09:43:08.032
+!MESSAGE Boot project ADDED: Chapter01HelloGradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 09:43:08.033
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 09:43:08.034
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 09:43:08.102
+!MESSAGE Boot project ADDED: Chapter01Hellomaven
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 09:43:08.102
+!MESSAGE Boot project ADDED: ThymeleafTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-07 09:43:08.116
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringBoot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1730940188114
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 09:43:08.116
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-07 09:43:08.152
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17384
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 10:03:29.204
+!MESSAGE Classpath changed for project: Chapter02MySQL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 10:03:29.204
+!MESSAGE Boot project ADDED: Chapter02MySQL
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 10:56:30.280
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 10:56:30.444
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 10:56:30.453
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 11:01:14.581
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 11:01:14.635
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 11:01:14.641
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:08:11.754
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:08:32.802
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:08:34.270
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:08:35.465
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 11:12:41.159
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:41.165
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:42.280
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:44.243
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:46.014
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:46.534
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:49.334
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:50.833
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:12:52.537
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:14:53.966
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:15:17.579
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:15:23.536
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:15:52.429
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:17:32.416
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 11:20:16.294
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:16.298
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:17.101
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:21.010
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:21.787
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:25.615
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:28.067
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:29.078
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:30.803
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:31.746
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:20:37.009
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:30.433
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:31.995
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:33.817
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:33.820
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:34.866
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:38.848
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:40.213
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:26:41.046
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:33.997
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:45.842
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:46.999
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:49.599
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:51.349
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:53.246
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:27:56.157
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:28:02.455
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:03.974
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:05.339
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:06.717
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:07.877
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:14.669
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:16.070
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:20.128
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:22.923
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:24.559
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:26.150
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:28.663
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:34.523
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:36.641
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:37.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:40.246
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:29:41.723
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:31:08.927
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:33:12.918
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:33:15.679
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:33:16.887
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:33:17.924
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:34:25.077
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:34:25.079
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:34:27.881
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:34:27.884
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:36:42.464
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:36:43.776
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:36:46.551
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 11:36:48.762
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.properties
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 11:57:35.452
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 11:57:35.453
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 11:57:35.453
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 11:57:35.454
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 11:57:35.457
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 11:57:35.458
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 12:01:28.982
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:01:39.756
+!MESSAGE Marker id 743 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter02MySQL/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-07 12:01:39.758
+!MESSAGE Marker id 743 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 12:16:35.775
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 12:25:59.430
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:25:59.435
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:26:43.352
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:26:46.475
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:20.857
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:22.162
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-07 12:27:22.185
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:23.712
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:27.682
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:29.523
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:29.527
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:31.665
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:31.674
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:31.678
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:34.029
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:34.033
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:41.447
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:43.375
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:43.378
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:52.780
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:52.784
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:56.864
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:27:59.430
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:01.695
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:01.699
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:16.452
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:18.006
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:19.026
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:20.895
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:22.063
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:23.110
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:24.236
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:25.159
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:29.563
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:29.571
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:29.574
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:37.869
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:37.871
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:37.876
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:39.457
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:40.456
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:40.461
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:43.405
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:43.408
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:43.412
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:45.409
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:45.412
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:45.416
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:49.536
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:49.543
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:51.549
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:51.554
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:51.556
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:52.715
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:28:52.718
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:13.597
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:13.601
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:15.521
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:15.527
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:51.093
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:51.096
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:51.100
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:52.291
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:52.294
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:52.297
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:52.301
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:58.628
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:58.631
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:29:58.633
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:04.637
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:04.640
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:04.643
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:04.645
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:06.712
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:06.715
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:06.719
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:06.723
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:08.825
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:08.828
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:08.832
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:08.834
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:08.838
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:09.755
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:09.758
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:09.761
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:09.763
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:09.766
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:16.119
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:16.128
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:16.131
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:17.918
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:17.922
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:17.926
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:17.929
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:19.881
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:19.887
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:19.894
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:19.897
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:22.025
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:22.028
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:25.241
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:25.244
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:28.463
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:28.466
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:28.469
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:36.087
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:36.090
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:39.633
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:41.060
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:41.063
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:42.836
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:42.840
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:42.843
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:42.846
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:43.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:43.863
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:43.866
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:30:43.869
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:03.242
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:03.246
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:06.120
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:06.123
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:06.127
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:07.800
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:07.803
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:07.806
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:09.010
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:09.013
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:09.015
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:09.018
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:13.228
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:13.234
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:14.291
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:14.296
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:14.298
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:16.158
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:16.165
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:16.168
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:16.171
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:20.716
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:20.720
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:20.723
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:20.727
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:27.546
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:27.549
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:31.851
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:31.854
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:36.786
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:36.790
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:38.602
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:38.605
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:40.705
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:40.708
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:41.758
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:41.761
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:42.708
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:42.711
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:44.818
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:44.821
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:45.775
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:46.904
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:48.942
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:48.944
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:50.170
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:50.173
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:54.230
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:54.233
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:54.235
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:56.199
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:56.202
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:56.204
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:56.208
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:59.613
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:59.616
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:59.619
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:31:59.621
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:01.168
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:01.171
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:01.174
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:01.176
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:04.891
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:04.894
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:04.898
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:07.746
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:07.753
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:07.756
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:07.761
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:09.971
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:09.974
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:09.977
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:09.980
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:12.915
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:12.918
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:12.923
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:16.058
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:16.066
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:16.074
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:17.629
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:17.633
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:17.636
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:24.939
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:24.943
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:24.945
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:24.948
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:26.760
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:26.770
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:26.775
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:30.647
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:30.650
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:32.023
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:32.028
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:32.866
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:34.910
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:34.913
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:34.916
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:34.919
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:36.151
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:36.153
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:36.155
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:36.157
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:36.161
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:38.479
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:38.482
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:38.484
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:38.488
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:40.376
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:40.381
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:40.384
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:40.386
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:42.284
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:42.287
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:42.291
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:49.483
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:49.486
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:49.488
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:50.258
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:51.516
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:51.522
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:32:51.524
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:33:02.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:33:02.864
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:33:04.202
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:34:11.159
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:34:11.162
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 12:37:17.905
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:31.901
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:34.093
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:34.826
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:36.603
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:37.387
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:41.588
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:42.456
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:43.967
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:44.693
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:46.705
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:37:46.708
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:09.492
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:09.496
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:12.582
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:12.584
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:14.563
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:14.568
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:15.446
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:15.451
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:17.715
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:17.718
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:35.826
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:39.928
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:43.922
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:44.937
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:45.707
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:52.981
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:55.359
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:55.809
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:38:58.324
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:01.050
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:02.724
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:02.757
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:06.416
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:07.759
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:11.292
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:14.626
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:18.898
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:20.299
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:22.074
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 12:39:43.704
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+!SESSION 2024-11-07 12:44:03.016 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-07 12:44:29.079
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-07 12:44:32.757
+!MESSAGE Logback config file: D:\SpringBoot\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-07 12:44:33.075
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-07 12:44:33.075
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-07 12:44:33.307
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-07 12:44:33.307
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-07 12:44:37.040
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringBoot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1730951077039
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:37.040
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-07 12:44:37.047
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 18788
+
+!ENTRY org.eclipse.jface 2 0 2024-11-07 12:44:37.901
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-11-07 12:44:37.902
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:38.667
+!MESSAGE Boot project ADDED: Chapter01HelloGradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:38.668
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-07 12:44:38.668
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bitcamp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:38.670
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:38.745
+!MESSAGE Boot project ADDED: Chapter01Hellomaven
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:38.746
+!MESSAGE Boot project ADDED: Chapter02MySQL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-07 12:44:38.747
+!MESSAGE Boot project ADDED: ThymeleafTest
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 12:45:56.101
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 12:45:56.102
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 12:45:56.103
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 12:45:56.103
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 12:45:56.108
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 12:45:56.110
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 14:26:29.490
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 14:26:29.557
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 14:26:29.589
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 14:33:50.814
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 14:33:50.953
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 14:33:50.957
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 14:33:50.970
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 14:49:24.846
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 14:52:34.961
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 14:56:54.228
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 15:50:34.329
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 15:50:34.329
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 15:50:34.330
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 15:50:34.330
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 15:50:34.333
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 15:50:34.334
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 15:50:35.202
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 15:50:35.343
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:35.345
+!MESSAGE Marker id 1046 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter02MySQL/src/main/resources/templates/user/write.html)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-07 15:50:35.348
+!MESSAGE Marker id 1046 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 15:50:35.349
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:35.519
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:35.534
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:36.553
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:36.558
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:37.951
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:37.954
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:39.460
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:58.315
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:58.320
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:50:59.380
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:27.381
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:28.797
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:28.801
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:28.804
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:28.808
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.381
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.387
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.391
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.396
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.400
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.405
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.406
+!MESSAGE Marker id 1066 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter02MySQL/src/main/resources/templates/user/write.html)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-07 15:52:30.406
+!MESSAGE Marker id 1066 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:30.406
+!MESSAGE Marker id 1066 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter02MySQL/src/main/resources/templates/user/write.html)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3029)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-07 15:52:30.406
+!MESSAGE Marker id 1066 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3029)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:32.125
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:32.134
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:45.256
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:45.260
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:52.833
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:52.837
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:52.842
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:52.846
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:52.850
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:52.855
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.946
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.950
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.953
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.957
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.960
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.964
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.967
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:54.971
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:57.357
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 15:52:57.361
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:02.616
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:05.558
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:05.564
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:06.951
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:06.955
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:09.058
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:09.061
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:13.218
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:13.222
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:17.549
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:17.552
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:19.748
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:19.752
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:01:20.919
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:02:25.723
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:02:27.031
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:02:29.443
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:02:33.588
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:02:35.801
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/templates/user/write.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:18:13.400
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 17:18:51.281
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 17:18:51.414
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 17:18:51.418
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:18:51.421
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:18:51.438
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:18:51.445
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:03.330
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:03.335
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:04.112
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:04.985
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:04.989
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:06.255
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:09.702
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:10.394
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:11.883
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:14.425
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:15.259
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:16.166
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:16.180
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:17.588
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:18.353
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:19.481
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:20.407
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:20.413
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:26.809
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:26.815
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:35.996
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:36.961
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:38.102
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:41.981
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:42.759
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:44.742
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:45.898
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:51.704
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:19:52.525
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:03.439
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:05.200
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:09.417
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:10.487
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:12.465
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:14.087
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:20:16.350
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:21:32.575
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:21:34.123
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:21:35.804
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:21:36.946
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:21:48.464
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:21:49.783
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 17:27:47.843
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 17:27:47.843
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 17:27:47.844
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 17:27:47.844
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 17:27:47.846
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-07 17:27:47.847
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 17:27:48.613
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 17:27:48.751
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-07 17:27:48.758
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:27:48.761
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:27:54.499
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:27:56.781
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:03.363
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:04.190
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:06.375
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:06.378
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:07.892
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:07.897
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:08.867
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:08.872
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:41.209
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:41.213
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:43.007
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:43.011
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:44.223
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:44.227
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:46.638
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:46.642
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:48.657
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:48.660
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:50.286
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:50.290
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:51.878
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:28:51.882
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:52.803
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:52.809
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:54.016
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:54.020
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:56.227
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:56.233
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:58.854
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:32:58.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:00.154
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:00.162
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:01.872
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:01.880
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:03.057
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:03.061
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:04.216
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:04.221
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:05.298
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:05.302
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:06.228
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:06.234
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:07.213
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:07.217
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:12.938
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:12.943
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:14.474
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:14.478
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:20.866
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:20.869
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:23.628
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:23.634
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:25.499
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:25.503
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:26.813
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:26.820
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:27.866
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:27.869
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:28.872
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:28.877
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:29.973
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:29.976
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:30.892
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:30.898
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:34.883
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:34.888
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:37.082
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:37.086
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:38.396
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:38.400
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:40.438
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:40.443
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:42.154
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:42.159
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:43.624
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:33:43.629
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:34:32.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:34:32.865
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:34:34.059
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:34:34.063
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:34:36.061
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:34:36.065
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:01.441
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:01.447
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:02.964
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:02.968
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:04.550
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:04.554
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:07.131
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:07.136
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:09.371
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:09.377
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:10.720
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:10.727
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:12.457
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:12.466
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:13.438
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:14.037
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:24.916
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:24.920
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:28.209
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:28.213
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:29.433
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:29.437
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:30.586
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:30.590
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:32.382
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:32.386
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:34.059
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:34.063
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:37.964
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:37.970
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:39.008
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:39.011
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:43.609
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:35:43.614
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:36:53.499
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:36:53.504
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:24.388
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:24.392
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:28.299
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:28.303
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:29.431
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:29.435
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:30.906
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:30.910
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:32.928
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:32.932
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:35.031
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:35.037
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:36.547
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:36.550
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:37.708
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:37.712
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:39.611
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:39.614
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:40.710
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:40.715
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:41.729
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:41.733
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:45.476
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:45.483
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:48.285
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:48.290
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:51.058
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:51.062
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:52.508
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:52.515
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:55.643
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:55.647
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:59.685
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:37:59.688
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:03.478
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:03.482
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:05.578
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:05.584
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:06.621
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:06.625
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:07.964
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:07.967
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:08.972
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:08.977
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:10.803
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:10.807
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:28.022
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:28.026
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:29.226
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:29.230
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:35.186
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:38:35.190
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:48:22.855
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/resources/mapper/userMapper.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:48:50.592
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-07 17:48:50.596
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter02MySQL/src/main/java/user/controller/UserController.java

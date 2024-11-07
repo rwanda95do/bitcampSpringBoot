@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/user.css"> 
+</head>
+<body>
+<div id="wrap">
+		<a href="/spring"><img alt="gif였네" src="../image/img1.gif" width="50" height="50"></a>	
+	    <div id="Formwrap">
+	    <!-- <form name="userWriteForm" id="userWriteForm" method="post"> -->
+	        <form name="userWriteForm" id="userWriteForm" method="post" th:action="@{/user/write2}">
+	            <div id="inputwrap">
+	                <div id="namewrap">
+	                    <div>이름 : </div>
+	                    <input type="text" id="name" name="name"/>
+	                    <div id="nameDiv"></div>
+	                </div>
+	                <div id="idwrap">
+	                    <div>아이디 : </div>
+	                    <input type="text" id="id" name="id"/>
+	                    <div id="idDiv"></div>
+	                </div>
+	                <div id="pwdwrap">
+	                    <div>비밀번호 : </div>
+	                    <input type="text" id="pwd" name="pwd"/>
+	                    <div id="pwdDiv"></div>
+	                </div>
+	                <div id="btnwrap">
+	                    <input id="writeBtn" type="button" value="회원가입"/>
+	                </div>
+	                <div id="resetwrap">
+	                    <input type="reset" value="취소"/>
+	                </div>
+	            </div>
+	        </form>
+	    </div>
+	</div>
+	
+	
+	
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!--jquery사용 :  <script type="text/javascript" src="../js/write.js"></script> -->
+<script type="text/javascript">
+$(function(){
+	// 등록
+	$('#writeBtn').click(function(){
+		$('#idDiv').empty();
+		$('#pwdDiv').empty();
+		
+		if($('#name').val()== '')
+			 $('#nameDiv').html("이름 입력하세요");
+		else if($('#id').val()== '')
+			 $('#idDiv').html("아이디 입력하세요");
+		else if($('#pwd').val()== '')
+			 $('#pwdDiv').html("비밀번호 입력하세요");
+		else {
+			$('#userWriteForm').submit();
+			
+		} 
+	});
+});
+</script>
+
+</body>
+</html>

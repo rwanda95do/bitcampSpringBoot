@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border=1>
+	<tr>
+		<th>name</th>
+		<th>id</th>
+		<th>pwd</th>
+	</tr>
+	<tr th:each="item: ${list}">
+		<td th:text="${item.name}"></td>
+		<td>
+			<a th:text="${item.id}" th:href="@{/user/profile(id=${item.id})}"></a>
+		</td>
+		<td th:text="${item.pwd}"></td>
+	</tr>
+</table>
+</body>
+</html>

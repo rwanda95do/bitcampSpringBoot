@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#memberPagingDiv {
+		border: 1px red;
+		width: 800px;
+		margin-top: 10px;
+	}
+	
+	span{
+		margin:5px;
+	}
+</style>
+</head>
+<body>
+	<!-- <a th:href="@{/}"> 타임리프가 굳이 의미가 없다. 는데 왜? -->
+	<a href="/"><img alt="" src="/image/images.jpg" width="100" height="50"></a>
+	<table id="listTable">
+		<tr>
+			<th width="100">번호</th>
+			<th width="100">아이디</th>
+			<th width="100">비밀번호</th>
+			<th width="100">이름</th>
+		</tr>
+		<tr th:each="dto : ${map.list}">
+			<td th:text="${dto.seq}" align="center"></td>
+			<td th:text="${dto.id}" align="center"></td>
+			<td th:text="${dto.pwd}" align="center"></td>
+			<td th:text="${dto.name}" align="center"></td>
+		</tr>
+	</table>
+	<div id="memberPagingDiv" th:utext="${map.memberPaging.pagingHTML}"></div>
+	<br/><br/>
+	
+	<div style="border: 1px solid red; width: 800px; text-align: center" >
+		<form action="" id="searchListFrom">
+			<select id="columnName" style="width: 100px">
+				<option value="name">이름</option>
+				<option value="id">아이디</option>
+			</select>
+			<input type="text" id="value">
+			<input type="button" id="searchListBrn" value="검색">
+		</form>
+	</div>
+	
+<script type="text/javascript">
+function memberPaging(page){
+	location.href = "/member/list?page="+(page-1);
+}
+</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="/js/list.js"></script>
+
+
+</body>
+</html>

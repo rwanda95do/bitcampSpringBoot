@@ -4592,3 +4592,2693 @@ org.eclipse.jface.text.BadLocationException: 1339
 	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
 	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2024-11-13 14:34:49.723 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 14:35:57.017
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 14:36:53.521
+!MESSAGE Logback config file: D:\SpringBoot\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 14:36:54.249
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 14:36:54.249
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 14:36:54.635
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 14:36:54.635
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-13 14:37:02.476
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bitcamp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.537
+!MESSAGE Boot project ADDED: Chapter01HelloGradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.537
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.732
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.733
+!MESSAGE Boot project ADDED: Chapter01Hellomaven
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.733
+!MESSAGE Boot project ADDED: Chapter02MySQL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.737
+!MESSAGE Boot project ADDED: Chapter03JPA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.787
+!MESSAGE Boot project ADDED: ThymeleafTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 14:37:03.895
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringBoot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731476223894
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 14:37:03.895
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 14:37:04.006
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12452
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-13 15:44:27.325
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-13 16:09:48.910
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 16:26:27.105
+!MESSAGE Classpath changed for project: Chapter04JPA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 16:26:27.112
+!MESSAGE Boot project ADDED: Chapter04JPA
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 17:42:15.205
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 17:42:15.490
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 17:42:15.504
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-13 17:46:28.659
+!MESSAGE Marker id 1719 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-13 17:46:28.660
+!MESSAGE Marker id 1719 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-13 17:46:28.661
+!MESSAGE Marker id 1719 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-13 17:46:28.661
+!MESSAGE Marker id 1719 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-13 17:46:33.811
+!MESSAGE Marker id 1727 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-13 17:46:33.812
+!MESSAGE Marker id 1727 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-13 17:46:33.812
+!MESSAGE Marker id 1727 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-13 17:46:33.812
+!MESSAGE Marker id 1727 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2024-11-14 09:34:55.353 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 09:35:31.776
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 09:39:22.152
+!MESSAGE Logback config file: D:\SpringBoot\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 09:39:22.809
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 09:39:22.809
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 09:39:23.191
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 09:39:23.191
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-14 09:39:33.089
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bitcamp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:33.899
+!MESSAGE Boot project ADDED: Chapter01HelloGradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:33.900
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:33.903
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 09:39:34.041
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringBoot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731544774040
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:34.042
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:34.060
+!MESSAGE Boot project ADDED: Chapter01Hellomaven
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:34.061
+!MESSAGE Boot project ADDED: Chapter02MySQL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:34.061
+!MESSAGE Boot project ADDED: Chapter03JPA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:34.061
+!MESSAGE Boot project ADDED: Chapter04JPA
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:39:34.061
+!MESSAGE Boot project ADDED: ThymeleafTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 09:39:34.117
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10288
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 09:39:35.857
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 09:39:36.280
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 09:39:36.323
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 09:39:58.594
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-14 09:48:35.807
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-14 09:53:48.569
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 10:10:05.185
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:10:05.195
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:10:07.382
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:10:09.241
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 10:30:55.114
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:30:55.119
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:21.500
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:24.347
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:27.533
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:31.342
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:32.682
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:33.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:41.928
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:41:41.930
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:105)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:48:02.632
+!MESSAGE Marker id 1945 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-14 10:48:02.632
+!MESSAGE Marker id 1945 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:48:02.633
+!MESSAGE Marker id 1945 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/write.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-14 10:48:02.634
+!MESSAGE Marker id 1945 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2037)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1447)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:102)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:37.473
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:39.779
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:40.667
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:42.797
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:43.615
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:44.526
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:44.535
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:45.834
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:50:46.562
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:00.400
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:04.229
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:07.523
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:11.880
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:13.214
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:14.695
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:16.000
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:18.552
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:19.020
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:22.297
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:26.170
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:27.450
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:28.467
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:30.989
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:33.430
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:51:34.557
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:52:05.469
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:52:36.882
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:21.560
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:22.540
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:23.090
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:25.672
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:27.568
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:29.717
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:54:31.914
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:57:35.984
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:57:37.039
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:57:38.178
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:25.921
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:27.331
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:30.098
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:33.565
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:34.682
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:37.554
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:39.471
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:41.455
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 10:59:42.804
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:00:44.642
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:27.692
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:31.938
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:35.233
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:39.122
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:40.165
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:42.177
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:46.145
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:48.692
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:02:50.189
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:36.757
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:38.728
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:39.962
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:45.272
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:47.130
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:48.483
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:03:52.331
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:13.234
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:15.037
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:16.388
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:32.606
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:34.050
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:35.515
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:37.347
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:40.583
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:42.059
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:43.750
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:04:46.065
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:02.165
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:03.413
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:05.326
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:13.502
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:14.528
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:15.593
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:55.684
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:05:57.855
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:07:24.346
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:24.350
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:25.560
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:27.387
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:28.349
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:30.295
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:33.515
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:35.465
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:36.810
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:38.723
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:48.453
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:55.713
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:57.717
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:07:58.965
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:08:20.310
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:08:27.868
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:08:30.514
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:08:32.372
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:08:34.420
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:08:36.659
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:27.444
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:28.577
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:29.879
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:31.361
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:32.997
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:34.069
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:35.932
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:37.472
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:41.384
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:42.544
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:44.483
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:17:56.693
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:18:19.831
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:18:20.901
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:18:23.382
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:18:24.522
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:18:27.036
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:18:36.747
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:23:08.339
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:23:08.566
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:23:08.570
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:08.572
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:09.801
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:11.622
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:12.859
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:15.763
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:16.898
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:21.113
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:22.230
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:23.349
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:24.865
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:26.301
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:28.392
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:31.601
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:32.766
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:34.372
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:37.489
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:39.530
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:23:41.554
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:24:50.444
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:24:51.659
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:14.109
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:15.367
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:17.131
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:31.061
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:34.691
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:35.821
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:37.896
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:49.724
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:50.914
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:53.173
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:57.593
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:59.675
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:02.841
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:06.489
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:07.299
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:08.870
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:13.242
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:14.662
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:17.087
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:19.530
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:20.729
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:21.758
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:24.149
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:25.349
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:26.388
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:27.589
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:28.649
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:31.187
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:32.569
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:35.078
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:42.538
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:46.014
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:47.168
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:48.564
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:50.410
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:52.412
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:53.482
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:54.556
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:55.613
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:56.859
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:01.949
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:03.400
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:07.492
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:08.830
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:09.784
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:15.779
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:16.647
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:19.251
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:21.153
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:32.549
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:40.265
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:55.201
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:56.253
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:58.000
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:59.246
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:36.840
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:38.049
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:51.241
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:47.563
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:49.676
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:51.138
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:41.418
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:54.075
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:55.626
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:04.925
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:39.855
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:13.802
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:25.401
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:27.032
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:29.171
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:55:44.337
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:55:46.389
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:55:47.457
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:55:48.433
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:55:49.691
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:55:50.542
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:57:10.635
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:57:12.054
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:57:23.091
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:57:23.930
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:57:30.723
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:57:30.725
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:58:31.629
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:58:31.633
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:58:44.440
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:58:44.442
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:58:45.887
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:58:45.892
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 12:03:22.464
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 12:03:22.596
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 12:03:22.599
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:03:22.601
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:03:22.608
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:25.177
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:25.181
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:28.381
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:28.385
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:32.929
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:32.933
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:39.813
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:39.816
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:42.664
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:42.669
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:46.475
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:46.478
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:49.810
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:17:49.815
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:07.949
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:07.953
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:11.215
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:11.219
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:11.269
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:11.273
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:34.741
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:34.744
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:39.649
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:39.652
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-14 12:18:40.892
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:41.376
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:18:41.380
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:09.970
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:13.502
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:14.677
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:15.719
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:21.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:26.029
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:36.646
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:48.545
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:50.986
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:52.329
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:54.219
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:54.222
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:55.473
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:56.537
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:59.200
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:24:59.203
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:01.260
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:09.384
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:09.386
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:12.752
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:15.241
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:15.248
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:17.027
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:17.030
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:19.039
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:22.944
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:22.946
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:25.230
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:30.658
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:30.662
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:32.241
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:32.243
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:25:33.798
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:26:19.010
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:26:19.013
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:26:21.082
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:26:59.108
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:26:59.111
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:27:00.497
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:27:22.373
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 12:27:49.575
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 14:11:51.399
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 14:11:51.621
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 14:11:51.624
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:11:51.627
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:11:52.766
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:11:56.173
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:11:56.176
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:11:57.314
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:05.805
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:08.051
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:08.054
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:09.290
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:09.292
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:10.322
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:23.635
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:23.637
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:25.488
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:35.711
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:35.713
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:21:36.933
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:23:25.237
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:23:26.547
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:23:26.549
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/resources/templates/member/list.html
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 14:26:44.898
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 14:26:44.951
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "D:\SpringBoot\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 14:26:44.963
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:35:14.823
+!MESSAGE Marker id 2311 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/list.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-14 14:35:14.823
+!MESSAGE Marker id 2311 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:146)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:35:14.824
+!MESSAGE Marker id 2311 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Chapter04JPA/src/main/resources/static/js/list.js)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-11-14 14:35:14.824
+!MESSAGE Marker id 2311 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:37:56.953
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:37:56.958
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:37:58.018
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:37:58.022
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:37:59.113
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:37:59.117
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:03.694
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:03.699
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:07.197
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:07.202
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:08.662
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:08.667
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:12.629
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:12.632
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:14.390
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:14.393
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:22.870
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:22.874
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:25.077
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:25.084
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:31.513
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:31.516
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:32.809
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:32.812
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:34.657
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:34.660
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:37.001
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:37.005
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:38.905
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:38.908
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:44.369
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:44.373
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:47.116
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:47.119
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:57.885
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:38:57.889
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:01.635
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:01.639
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:02.889
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:02.894
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:04.309
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:04.313
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:06.566
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:06.571
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:07.912
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:07.916
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:12.194
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:12.199
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:15.636
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:39:15.641
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:21.181
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:21.184
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:22.358
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:22.363
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:24.498
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:24.502
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:27.164
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:27.929
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:27.933
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:30.297
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:30.302
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:30.305
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:33.302
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:33.307
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:33.311
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:34.458
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:34.461
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:34.465
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:36.693
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:36.697
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:36.701
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:38.543
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:40.413
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:40.417
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:40.421
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:40.425
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:43.026
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:43.029
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:43.032
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:40:43.035
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:28.458
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:28.462
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:29.143
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:29.148
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:29.383
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:29.387
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:30.001
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:30.005
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:30.930
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:30.933
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:32.338
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:32.340
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:32.350
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:32.354
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:32.358
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:32.361
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:33.394
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:34.942
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:34.946
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:35.701
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:35.705
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:36.622
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:36.625
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:37.776
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:37.779
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:38.886
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:38.891
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:39.747
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:39.751
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:43.558
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:43.561
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:44.337
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:41:44.341
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:29.142
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:29.145
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:29.152
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:29.156
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:31.641
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:31.646
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:31.651
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:31.657
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:32.788
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:32.791
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:32.794
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:32.798
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:37.571
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:37.575
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:37.578
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:42:37.585
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:39.835
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:40.564
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:40.567
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:40.571
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:41.056
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:41.810
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:42.660
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:42.663
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:42.666
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:55.209
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:55.212
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:55.215
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:43:55.219
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:33.666
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:33.670
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:33.676
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:33.680
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:35.339
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:35.343
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:35.347
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:35.350
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:37.000
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:37.005
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:37.012
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:37.015
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:40.442
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:40.445
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:40.453
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:40.456
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:42.594
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:42.598
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:42.601
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:44:42.604
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:18.543
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:18.546
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:18.549
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:18.552
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:20.854
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:20.858
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:20.861
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:20.864
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:22.751
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:22.757
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:22.762
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:22.765
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:25.122
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:25.125
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:25.129
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 14:45:25.132
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:29.343
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:29.351
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:29.358
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:29.362
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:34.601
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:34.606
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:34.611
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:28:34.616
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:29:34.024
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:29:34.028
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:29:34.031
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:29:34.034
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:33:22.083
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:33:22.941
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:34:59.020
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:34:59.674
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:02.975
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:06.139
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:08.159
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:09.382
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:12.079
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:12.903
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:14.247
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:15.810
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:16.176
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:17.363
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:20.859
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:21.630
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:23.682
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:24.909
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:37.228
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:39.864
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:42.506
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:43.466
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:46.563
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:51.245
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:54.524
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:55.199
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:56.426
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:57.687
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:35:59.638
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:00.964
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:06.233
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:08.289
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:09.776
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:12.126
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:21.612
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:22.834
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:24.214
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:25.894
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:27.348
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:28.996
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:37.769
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:39.319
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:40.960
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:43.245
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:44.378
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:46.311
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:56.095
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:36:57.302
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:15.678
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:43.666
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:47.702
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:49.411
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:49.971
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:51.528
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:53.157
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:54.608
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:55.546
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:56.084
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:57.648
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:37:58.636
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:38:01.112
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:38:05.397
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:38:06.500
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:38:08.577
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:38:11.279
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:38:13.732
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:41:43.377
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:48:24.974
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:48:26.730
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 15:48:53.373
+!MESSAGE [Error]	Unexpected resource file:///D:/SpringBoot/workspace/Chapter04JPA/src/main/java/member/dao/MemberRepository.java
